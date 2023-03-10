@@ -42,19 +42,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Front-end Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "content creator",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
+    title: "Freelancer",
     icon: creator,
   },
 ];
@@ -85,18 +81,6 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -108,10 +92,7 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+ 
 ];
 
 const experiences = [
@@ -198,30 +179,27 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "myPortfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "a very nice portfolio with a beautiful design using html & css",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/seifeddinesaad/Html-css-portfolio",
   },
   {
-    name: "Job IT",
+    name: "Youtube Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "a very nice clone of youtube",
     tags: [
       {
         name: "react",
@@ -235,30 +213,31 @@ const projects = [
         name: "scss",
         color: "pink-text-gradient",
       },
+
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/seifeddinesaad/youtube-clone",
   },
   {
-    name: "Trip Guide",
+    name: "Quiz-App Admin dashboard",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "an admin dashboard that enable admins to see a list of the users and admins, ban users,ban admins,add a quiz...",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "strapi",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "scss",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/seifeddinesaad/dashboard-languages-app",
   },
 ];
 
